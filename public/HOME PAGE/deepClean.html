@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iCLEANERS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="https://localhost:3443/home/" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div id="brand-name" class="navbar-brand">
+            <a href="https://localhost:3443/home/">
+              <h1>iCLEANERS</h1>
+            </a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            
+            <li>
+              <a href="aboutUs.html">About Us</a>
+            </li>
+            <li>
+              <a href="#">Why Us?</a>
+            </li>
+            <!-- <li>
+              <a href="#">Sign Up/Login</a>
+            </li> -->
+            <li id="home-cart">
+              <a href="cart.html"><i class="material-icons">shopping_cart</i></a>
+            </li>
+
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="main-content" class="container">
+    
+    <div class="service-des-left col-sm-6 col-xs-12">
+      <h2>DEEP CLEANING</h2>
+      <div class="page1_grid">
+        <div class="box">
+          <h1>AA</h1>
+          <h3>Reliable Services</h3>
+          <p>All our technicians are wel trained and are experienced in keeping the appliances clean</p>
+        </div>
+        <div class="box">
+          <h1>AB</h1>
+          <h3>Convenient</h3>
+          <p>Our platform is designed keeping in mind your convenience, so you select the date and time of our visit</p>
+        </div>
+        <div class="box">
+          <h1>AC</h1>
+          <h3>We Provide</h3>
+          <p>
+            <ul>
+              <li>Complete deep cleaning of all areas of the house inlcuding Bathroom, Kitchen, Living Room, Dining Room, Bedroom and Balcony.</li>
+              <li>Deep Cleaning and cleaning of curtains, sofa set and chairs using Professional grade cleaning solutions, cleaning equipment and vacuum cleaners by professionals cleaning staff</li>
+            </ul>
+          </p>
+        </div>
+      </div>  
+    </div>
+
+    <hr class="visible-xs">
+
+    <div class="service-des-right col-sm-6 col-xs-12"> 
+      <div id="service-img"><img src="./images/restaurant-logo.png"></div>
+      <p id="service-dynamic-des">HAHA</p>
+
+
+      <div class="dropdown">
+        
+        <button id="house-type-selected" onclick="myFunction()" class="dropbtn">House Type</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a id="homedrp" value="1">1 BHK</a>
+          <a id="aboutdrp" value="2">2 BHK</a>
+          <a id="contactdrp" value="3">3 BHK</a>
+        </div>
+
+      </div>
+      
+      <div class="next-button pull-right">
+        <a href="cart.html">
+          next
+        </a>
+      </div>
+    </div>
+
+
+  </div><!-- End of #main-content -->
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="./js/jquery-2.1.4.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/ajax-utils.js"></script>
+  <script src="./js/scriptService.js"></script>
+</body>
+</html>
